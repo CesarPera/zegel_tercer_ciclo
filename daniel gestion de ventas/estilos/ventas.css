@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    background: url('your-image-url.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.navbar, footer {
+    background-color: #7573F5;
+}
+.navbar-brand img {
+    max-height: 50px; /* Ajusta la altura de la imagen del logotipo */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+footer {
+    margin-top: auto; /* Empuja el footer al fondo de la página */
+}
+footer h3 {
+    margin-bottom: 15px;
+}
+footer a img {
+    width: 30px; /* Ajusta el tamaño de los iconos de redes sociales */
+    margin: 5px; /* Espacio entre los iconos */
+}
+.img-fluid {
+    max-width: 100%; /* Asegúrate de que las imágenes no excedan el ancho del contenedor */
+    height: auto; /* Mantén la proporción de la imagen */
+}
